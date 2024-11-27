@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 80vh;
+    margin: 0;
+    background: linear-gradient(to right, #b5e0a1, #d5e1c7);
+    color: #333;
+  }
+  
+  
+  #rps-game {
+    width: 70%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f8f2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the game content */
+  }
+  #choices button {
+    padding: 15px 25px;
+    background-color: #586058;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  #choices button:hover {
+    background-color: #0056b3;
+  }
+  #result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  #scoreboard {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  #user-score{
+    margin: 10px;
+    font-size: smaller;
+  }
+  #cpu-score{
+    margin: 10px;
+    font-size: larg;
+    
+  }
+  #game-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #round {
+    font-size: 15px;
+    margin: 10px 0;
+  }
