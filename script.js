@@ -1,13 +1,11 @@
 
-// const rock = document.getElementById('rock');
-// const paper = document.getElementById('paper');
-// const scissors = document.getElementById('scissors');
-
-// rock.addEventListener('click', () => playRound('rock'));
-// paper.addEventListener('click', () => playRound('paper'));
-// scissors.addEventListener('click', () => playRound('scissors'));
-
-
+// Rock Paper Scissors
+// Description: Implement a basic Rock Paper Scissors game.
+// Requirements:
+// The program should take the player’s move as an input from process.argv.
+// The program should randomly generate a move for the computer.
+// Determine the winner based on the rules of Rock Paper Scissors.
+// Output the result (win, lose, or draw) to the console.
 
 //Liste der möglichen Züge
 const validchoises = ['rock', 'paper', 'scissors'];
@@ -44,7 +42,7 @@ if (!userMove || !validchoises.includes(userMove)) {
     process.exit();
 }
 
-// Get computer move
+// den Cpu-Zug ermitteln
 const cpuMove = getComputerMove();
 
 // Ermitteln und Ausgeben des Ergebnisses
